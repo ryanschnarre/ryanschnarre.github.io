@@ -243,13 +243,6 @@ span.answer {
     color: #b1b1b1;
   }
 
-  #code, #console {
-    height:auto;
-  }
-  #console {
-    padding: 20px;
-  }
-
   #code {
     margin-bottom: 20px;
   }
