@@ -80,7 +80,7 @@ input.focus();
   };
 
   function response_5() {
-    $('.terminal').append("<p class='prompt'><u>Traveling</u> \n \n  <u>Learning from new experiences</u> \n\n  <u>Cracking a cold one with the boys</u></p>" + "<p class='prompt output new-output'></p>")
+    $('.terminal').append("<p class='prompt'><u>Traveling</u> \n \n  <u>Learning from new experiences</u> \n\n  <u>Cracking</u> <u>a</u> <u>cold</u> <u>one</u> <u>with</u> <u>the</u> <u>boys</u></p>" + "<p class='prompt output new-output'></p>")
   };
 
   function response_6() {
