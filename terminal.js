@@ -1,6 +1,10 @@
 var input = $('.404-input');
 input.focus();
 
+  $('.container').on('click', function(e){
+  input.focus();
+  });
+
   input.on('keyup', function(e){
     $('.new-output').text(input.val());
   });
