@@ -1,8 +1,8 @@
 var input = $('.404-input');
 input.focus();
 
-  $('.container').on('click', function(e){
-    input.focus();
+  $('#about').on('click', function(e){
+  input.focus();
   });
 
   input.on('keyup', function(e){
