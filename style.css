@@ -37,20 +37,18 @@ body {
   position: fixed;
   top: 0;
   left: 0;
-  letter-spacing: .75em;
-  text-transform: uppercase;
+  letter-spacing: 0.5em;
   text-align: center;
   width: 100%;
   background-color: #fafafa;
   line-height: 100px;
-  font-size: 15px;
   z-index: 1000;
   font-family: 'Roboto Slab', 'serif';
 }
 
 #about {
-  background-color: #FFBCA1;
-  height: 100vh;
+  background-color: #696d77;
+  min-height: 125vh;
   padding-top: 150px;
 }
 
