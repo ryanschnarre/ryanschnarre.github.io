@@ -50,7 +50,7 @@ input.focus();
         count++;
       }
 
-      else if (val === 'interests'){
+      else if (val === 'contact'){
         $('.new-output').removeClass('new-output');
         input.val('');
         response_5();
@@ -68,23 +68,23 @@ input.focus();
 
 
   function response(){
-    $('.terminal').append("<p class='prompt'>Skills | Education | Experience | Interests</p>" + "<p class='prompt output new-output'></p>" )
+    $('.terminal').append("<p class='prompt'>Skills | Education | Experience | Contact</p>" + "<p class='prompt output new-output'></p>" )
   };
 
   function response_2() {
-    $('.terminal').append("<p class='prompt'><u>General Purpose Languages</u> \n\n  Java \n  Python  \n  Swift  \n  C  \n  Swift  \n  LISP \n\n  <u>Web-Development</u> \n\n  HTML/CSS/JavaScript  \n  PHP \n  SQL \n  AngularJS</p>" + "<p class='prompt output new-output'></p>")
+    $('.terminal').append("<p class='prompt'><u>Object Oriented Languages</u> \n\n  Java \n  Python  \n  Swift  \n  C, C#  \n  Swift  \n  Go \n\n  <u>Web-Development</u> \n\n  HTML/CSS/JavaScript  \n  PHP \n  SQL \n  AngularJS \n  ReactJS </p>" + "<p class='prompt output new-output'></p>")
   };
 
   function response_3() {
-    $('.terminal').append("<p class='prompt'><u>Virginia Commonwealth University</u> \n\n  B.S. Computer Science  \n  Concentration in Cyber Security  \n  Spring Class of '17</p>" + "<p class='prompt output new-output'></p>")
+    $('.terminal').append("<p class='prompt'><u>Virginia Commonwealth University</u> \n\n  B.S. Computer Science  \n\n  Concentration in Cyber Security  \n\n  Spring Class of '17</p>" + "<p class='prompt output new-output'></p>")
   };
 
   function response_4() {
-    $('.terminal').append("<p class='prompt'><u>Work Experience</u> \n\n  Engineering Intern at Snagajob \n  Glen Allen, VA  \n \n  Server at Olive Garden \n  Short Pump, VA  \n\n  Cashier at Giant Food  \n  Lorton, Va</p>" + "<p class='prompt output new-output'></p>")
+    $('.terminal').append("<p class='prompt'><u>Work Experience</u> \n\n  Engineering Intern at Snagajob \n  Glen Allen, VA  \n\n  Server at Olive Garden \n  Short Pump, VA</p>" + "<p class='prompt output new-output'></p>")
   };
 
   function response_5() {
-    $('.terminal').append("<p class='prompt'><u>Traveling</u> \n \n  <u>Learning from new experiences</u> \n\n  <u>Cracking</u> <u>a</u> <u>cold</u> <u>one</u> <u>with</u> <u>the</u> <u>boys</u></p>" + "<p class='prompt output new-output'></p>")
+    $('.terminal').append("<p class='prompt'>Email: ryanschnarre@gmail.com \n\n  Phone: (540)848-1335 \n\n  Let's chat!</p>" + "<p class='prompt output new-output'></p>")
   };
 
   function response_6() {
